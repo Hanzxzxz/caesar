@@ -3,6 +3,8 @@
 ## Подготовка:
 ```
 npm install -g parcel-bundler
+git clone https://github.com/gerkirill/caesar.git
+cd caesar
 npm install
 ```
 
