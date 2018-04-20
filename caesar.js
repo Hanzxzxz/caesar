@@ -33,7 +33,7 @@ function shift(char, distance) {
   return encrypted;
 }
 
-function caesar(text, key) {
+export function caesar(text, key) {
   const allChars = text.split("");
   let result = "";
   for (var i = 0; i < allChars.length; i++) {
