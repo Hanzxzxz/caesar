@@ -7,5 +7,5 @@ let output = document.querySelector('.encoded-output');
 input.addEventListener('input', onInput);
 function onInput(event) {
   // todo: use imported function to encode the input
-  output.value = caesar();
+  output.value = caesar(this);
 }
